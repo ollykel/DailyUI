@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create New Account || Daily UI</title>
+		<link rel="stylesheet" type="text/css" href="./style001.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="./js/script001B.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Create New Account</h1>
+		</header>
+		<form id="entries" method="post">
+			<div id="usernameDiv" class="info">
+				<a class="alert">*</a>
+				<input id="username" class="info" placeholder="Username"/>
+				<div id="userAlert" class="alertDiv">
+					<p id="alertA" class="alert"></p>
+				</div>
+			</div>
+			<div id="emailDiv" class="info">
+				<a class="alert">*</a>
+				<input id="email" class="info" type="email" placeholder="Email Address"/>
+				<div id="emailAlert" class="alertDiv">
+					<p id="alertB" class="alert"></p>
+				</div>
+			</div>
+			<div id="passDiv" class="info">
+				<a class="alert">*</a>
+				<input id="pass" class="info" type="password" placeholder="Password"/>
+				<div id="passAlert" class="alertDiv">
+					<p id="alertC" class="alert"></p>
+				</div>
+			</div>
+			<div id="confirmDiv" class="info">
+				<a class="alert">*</a>
+				<input id="confirm" class="info" type="password" placeholder="Confirm Password"/>
+				<div id="confirmAlert" class="alertDiv">
+					<p id="alertD" class="alert"></p>
+				</div>
+			</div>
+			<div id="hintDiv" class="info">
+				<input id="hint" class="info" type="text" placeholder="Password Hint"/>
+				<div id="phoneAlert" class="alertDiv">
+					<p id="alertE" class="alert"></p>
+				</div>
+			</div>
+			<div id="phoneDiv" class="info">
+				<input id="phone" class="info" type="tel" placeholder="Phone # : (###) ###-####"/>
+				<div id="phoneAlert" class="alertDiv">
+					<p id="alertF" class="alert"></p>
+				</div>
+			</div>
+			<p><a class="alert">*</a> Required Field</p>
+			<div id="loginDiv">
+				<button id="create" class="info" type="submit" form="entries" name="create">Create Account</button>
+			</div>
+		</form>
+		<footer>
+			<hr/>
+			<p>Copyright Oliver Kelton, 2017</p>
+		</footer>
+	</body>
+</html>

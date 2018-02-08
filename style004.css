@@ -1,0 +1,85 @@
+body {
+	font-family: "Helvetica Neue", Arial;
+	font-size: 16px;
+	color: #000000;
+}
+.content {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.backer {
+	margin: 0px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+header {
+	margin-top: 10px;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times;
+	font-size: 18px; 
+	text-align: center;
+}
+sup {
+	font-size: 40px;
+}
+td {
+	vertical-align: top;
+}
+#status {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: 200;
+}
+#output {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: right;
+	font-size: 80px;
+	font-weight: 400;
+}
+#buttons {
+	text-align: center;
+}
+.button {
+	border: 4px #FFFFFF solid;
+	border-radius: 8px;
+	width: 160px;
+	height: 80px;
+	text-align: center;
+	font-size: 60px;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: #5FA9FF;
+	color: #000000;
+}
+.button:click {
+	top: 10px;
+}
+.selected {
+	border-color: #FFFF00;
+}
+.buttonA {
+	background-color: #DDDDDD;
+}
+.buttonB {
+	background-color: #777777;
+	color: #FFFFFF;
+}
+.buttonC {
+	background-color: #333333;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+.bottom {
+	width: 505px;
+	height: 80px;
+	background-color: #333333;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+.seconded {
+	background-color: #990000;
+}

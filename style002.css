@@ -1,0 +1,76 @@
+.content {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.main {
+	margin-left: 120px;
+	margin-right: 120px;
+	font-family: "Helvetica Neue", Arial;
+}
+body {
+	background-color: #C7E1FF;
+	background: -webkit-linear-gradient(#5FA9FF,#FFFFFF);
+}
+#body {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+h1 {
+	font-family: "Times New Roman", Georgia;
+	font-size: 60px;
+	text-align: center;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+header {
+	margin-bottom: 10px;
+}
+#entries {
+	font-family: "Helvetica Neue", Arial;
+	color: #555555;
+	font-size: 20px;
+}
+input.entry {
+	height: 30px;
+	width: 220px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: 300;
+	text-indent: 5px;
+	border: none;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+input.entrySmall {
+	width: 100px;
+}
+input.entryLong {
+	width: 450px;
+}
+a.radioChoice {
+	font-size: 15px;
+	margin-right: 20px;
+}
+div.entryDiv {
+	margin-bottom: 20px;
+}
+#nameDiv {
+	margin-top: 20px;
+}
+.alert {
+	font-weight: bold;
+	font-size: 15px;
+	color: #FF3333;
+}
+#submitDiv {
+	text-align: center;
+}
+#submit {
+	height: 35px;
+	width: 150px;
+	text-align: center;
+	font-size: 25px;
+	background-color: #555555;
+	color: #FFFFFF;
+	border-radius: 5px;
+}

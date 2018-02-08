@@ -1,0 +1,86 @@
+body {
+	width: 100%;
+	min-width: 700px;
+	max-width: 1200px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+h1 {
+	font-family: "Helvetica Neue", Arial;
+	font-size: 80px;
+	font-weight: 300;
+	text-align: center;
+}
+h2 {
+	font-family: "Helvetica Neue", Arial;
+	font-size: 35px;
+}
+#entries {
+	margin-left: 150px;
+	margin-right: 200px;
+	font-family: "Helvetica Neue", Arial;
+	font-size: 20px;
+	color: #555555;
+}
+p.info {
+	font-family: "Helvetica Neue", Arial;
+	font-size: 35px;
+	font-weight: 300;
+	color: #555555;
+	text-align: left;
+}
+input.info {
+	height: 50px;
+	width: 740px;
+	border: none;
+	border-bottom: 1px #999999 solid;
+	font-family: "Helvetica Neue", Arial;
+	font-size: 45px;
+	font-weight: 300;
+	color: #555555;
+	text-align: left;
+}
+button.info {
+	text-align: center;
+	height: 60px;
+	width: 280px;
+	font-family: "Helvetica Neue", Arial;
+	font-size: 45px;
+	font-weight: 500;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#loginDiv {
+	text-align: center;
+}
+#login {
+	background-color: #555555;
+	color: #FFFFFF;
+	margin-right: 10px;
+}
+#account {
+	background-color: #FFFFFF;
+	color: #555555;
+}
+.alert {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #FF3333;
+}
+div.alertDiv {
+	height: 50px;
+}
+footer {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 20px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 15px;
+	color: #666666;
+}
+#create {
+	background-color: #555555;
+	color: #FFFFFF;
+	width: 400px;
+}

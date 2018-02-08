@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" charset="UTF-8">
+	<head>
+		<title>Privacy Settings || Daily UI 007</title>
+		<link href="https://fonts.googleapis.com/css?family=Arvo|Catamaran" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="./style007.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="./js/script007.js"></script>
+	</head>
+	<body>
+		<header>
+			<br/>
+			<h1>Your Privacy Settings</h1>
+		</header>
+		<form class="main" action="/Day007B.html" method="post">
+			<br/>
+			<table id="mainTable" class="content">
+				<tr>
+					<td id="left">
+						<div id="left-wrap">
+						<div id="searchResults" class="optionBox">
+							<h2>Appear in Search Results</h2>
+							<p class="option"><input type="radio" name="searches" value="inEngines"><a class="option">In Search Engines</a></p>
+							<p class="option"><input type="radio" name="searches" value="inApp"><a class="option">In-App Only</a></p>
+							<p class="option"><input type="radio" name="searches" value="friendsPlus"><a class="option">To Friends of Friends</a></p>
+							<p class="option"><input type="radio" name="searches" value="friendsOnly"><a class="option">Only to Friends</a></p>
+						</div>
+						<div id="friendsList" class="optionBox">
+							<h2>Show Friends List</h2>
+							<p class="option"><input type="radio" name="friends" value="anyone"><a class="option">To Anyone</a></p>
+							<p class="option"><input type="radio" name="friends" value="friendsPlus"><a class="option">To Friends of Friends</a></p>
+							<p class="option"><input type="radio" name="friends" value="friendsOnly"><a class="option">Only to Friends</a></p>
+							<p class="option"><input type="radio" name="friends" value="nobody"><a class="option">To Nobody</a></p>
+						</div>
+						</div>
+					</td>
+					<td id="right">
+						<div id="showToPublic" class="optionBox">
+							<h2>What the Public Can See</h2>
+							<p class="option"><input type="checkbox" name="likes" value="on"><a class="option">Likes</a></p>
+							<p class="option"><input type="checkbox" name="events" value="on"><a class="option">Events Attended</a></p>
+							<p class="option"><input type="checkbox" name="posts" value="on"><a class="option">Posts</a></p>
+							<p class="option"><input type="checkbox" name="comments" value="on"><a class="option">Comments</a></p>
+						</div>
+						<div id="showToFriends" class="optionBox">
+							<h2>What Friends Can See</h2>
+							<p class="option"><input type="checkbox" name="likes2" value="on"><a class="option">Likes</a></p>
+							<p class="option"><input type="checkbox" name="events2" value="on"><a class="option">Events Attended</a></p>
+							<p class="option"><input type="checkbox" name="posts2" value="on"><a class="option">Posts</a></p>
+							<p class="option"><input type="checkbox" name="comments2" value="on"><a class="option">Comments</a></p>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<br/>
+			<div id="submitDiv">
+				<a href="./Day007B.html"><button id="submitter" type="submit" form="main">Change Settings</button></a>
+			</div>
+			<br/>
+		</form>
+		<footer>
+			<br/>
+			<p class="content">Copyright Oliver Kelton, 2017</p>
+		</footer>
+	</body>
+</html>

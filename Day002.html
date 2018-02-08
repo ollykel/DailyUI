@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Credit Card Checkout || Daily UI, Day 2</title>
+		<meta charset="UTF-8"/>
+		<meta lang="en"/>
+		<meta name="Oliver Kelton Daily UI 002"/>
+		<link rel="stylesheet" type="text/css" href="./style002.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="./js/script002.js"></script>
+	</head>
+	<body>
+		<header class="ender">
+			<h1 class="content">Almost Done!</h1>
+		</header>
+		<div id="body">
+		<hr class="content"/>
+		<form id="entries" class="content main">
+			<div id="nameDiv" class="entryDiv">
+				<a class="alert">*</a>
+				<input id="name" class="entry entryLong" type="text" placeholder="Name as it appears on card">
+				<p id="nameAlert" class="alert"></p>
+			</div>
+			<div id="emailDiv" class="entryDiv">
+				<a class="alert">*</a>
+				<input id="email" class="entry entryLong" type="email" placeholder="Email Address"/>
+				<input id="emailAlert" type="checkbox"/>
+				<a class="radioChoice">Receive Email Confirmation</a>
+				<p id="emailAlert" class="alert"></p>
+			</div>
+			<div id="phoneDiv" class="entryDiv">
+				<input id="phone" class="entry" type="tel" placeholder="Phone #"/>
+				<input id="phoneAlert" type="checkbox"/>
+				<a class="radioChoice">Receive Text Confirmation</a>
+				<p id="phoneAlert" class="alert"></p>
+			</div>
+			<div id="typeDiv" class="entryDiv">
+				<a class="alert">*</a>
+				<a>Card Type:</a>
+				<input id="Visa" class="radioChoice" class="radioChoice" type="radio" name="cardType"/>
+				<a class="radioChoice">Visa</a>
+				<input id="Mastercard" class="radioChoice" type="radio" name="cardType"/>
+				<a class="radioChoice">Mastercard</a>
+				<input id="AmEx" class="radioChoice" type="radio" name="cardType"/>
+				<a class="radioChoice">American Express</a>
+				<p id="typeAlert" class="alert"></p>
+			</div>
+			<div id="cardNumberDiv" class="entryDiv">
+				<a class="alert">*</a>
+				<input id="cardNumber" class="entry entryLong" type="password" placeholder="Card Number"/>
+				<a class="alert">*</a>
+				<input id="cvCode" class="entry entrySmall" type="password" placeholder="CVV"/>
+				<p id="cardAlert" class="alert"></p>
+			</div>
+			<div id="expDateDiv" class="entryDiv">
+				<a class="alert">*</a>
+				<input id="expDate" class="entry entrySmall" type="date" placeholder="Exp. Date"/>
+			</div>
+			<div id="address1Div" class="entryDiv">
+				<a class="alert">*</a>
+				<input id="address1" class="entry entryLong" type="text" placeholder="Address Line 1"/>
+				<p id="address1Alert" class="alert"></p>
+			</div>
+			<div id="address2Div" class="entryDiv">
+				<input id="address2" class="entry entryLong" type="text" placeholder="Address Line 2"/>
+			</div>
+			<div id="cityStateDiv" class="entryDiv">
+				<a class="alert">*</a>
+				<input id="city" class="entry" type="text" placeholder="City"/>
+				<a class="alert">*</a>
+				<input id="state" class="entry entrySmall" placeholder="State"/>
+				<p id="cityStateAlert" class="alert"></p>
+			</div>
+			<div id="zipcodeDiv" class="entryDiv">
+				<a class="alert">*</a>
+				<input id="zipcode" class="entry" type="text" placeholder="Zipcode"/>
+				<p id="zipcodeAlert" class="alert"></p>
+			</div>
+			<div id="submitDiv">
+				<button id="submit" type="submit">Submit</button>
+			</div>
+		</form>
+		<p class="main"><a class="alert">*</a> Required field</p>
+		<hr class="content"/>
+		</div>
+		<footer class="ender">
+			<p class="content">Copyright 2017, Oliver Kelton</p>
+		</footer>
+	</body>
+</html>

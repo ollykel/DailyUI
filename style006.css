@@ -1,0 +1,72 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 400;
+}
+.content {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.longForm {
+	text-indent: 20px;
+}
+h1 {
+	font-family: "Times New Roman", Times, Georgia;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: 500;
+}
+img {
+	display: block;
+}
+#profile {
+	position: relative;
+	text-align: center;
+}
+.frame {
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	border: 2px #999999 solid;
+	border-radius: 1px;
+}
+#profileFrame {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	border-radius: 50%;
+}
+#profilePic {
+	position: relative;
+	text-align: center;
+	height: 250px;
+	margin-right: -70px;
+	margin-left: -70px;
+}
+#about {
+	margin-left: 120px;
+	margin-right: 120px;
+	font-size: 16px;
+}
+#info {
+	margin-left: 220px;
+	margin-right: 220px;
+}
+p.details {
+	font-size: 16px;
+	color: #666666;
+}
+footer {
+	font-family: "Times New Roman", Times, Georgia;
+	font-size: 14px;
+	font-weight: 300;
+}

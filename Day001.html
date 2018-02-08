@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign-in Page || Daily UI</title>
+		<link rel="stylesheet" type="text/css" href="./style001.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="./js/script001.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome!</h1>
+		</header>
+		<form id="entries" method="get">
+			<div id="usernameDiv" class="info">
+				<input id="username" class="info" placeholder="Username/Email"/>
+				<div id="userAlert" class="alertDiv">
+					<p id="alertA" class="alert"></p>
+				</div>
+			</div>
+			<div id="passDiv" class="info">
+				<input id="pass" class="info" type="password" placeholder="Password"/>
+				<div id="passAlert" class="alertDiv">
+					<p id="alertB" class="alert"></p>
+				</div>
+			</div>
+			<div id="loginDiv">
+				<button id="login" class="info" type="submit" form="entries" name="login">Login</button>
+				<a href="./Day001B.html"><button id="account" class="info" type="button" name="account">New User</button></a>
+			</div>
+		</form>
+		<footer>
+			<hr/>
+			<p>Copyright Oliver Kelton, 2017</p>
+		</footer>
+	</body>
+</html>
